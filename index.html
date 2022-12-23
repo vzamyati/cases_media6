@@ -383,6 +383,161 @@
 
                 </div>
             </section>
+
+            <section class="ui-section">
+                <h2 class="h4 h-sup mb-4">Форми</h2>
+
+                <div class="grid grid-cols-1 grid-cols-tab-2 g-4">
+                    <div class="bg-light-blue b-rad-1 grid grid-cols-1 grid-cols-desk-6 py-3">
+
+                        <div class="col-start-desk-2 col-span-desk-4 form px-3 px-desk-0">
+                            <div class="field">
+                                <div class="f-small align-self-center mb-1">Поле введення</div>
+                                <label for="name">Ваше імʼя</label>
+                                <input id="name" type="text" class="control" placeholder="Введіть ваше імʼя">
+                            </div>
+
+                            <div class="field error">
+                                <label for="name-error">Ваше імʼя</label>
+                                <input id="name-error" type="text" class="control" placeholder="Введіть ваше імʼя">
+                                <p class="error-msg">Текст помилки</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="bg-light-blue b-rad-1 grid grid-cols-1 grid-cols-desk-6 py-3">
+
+                        <div class="col-start-desk-2 col-span-desk-4 form px-3 px-desk-0">
+                            <div class="field">
+                                <div class="f-small align-self-center mb-1">Поле вибору</div>
+                                <label for="region">Ваш регіон</label>
+                                <select id="region" class="control">
+                                    <option class="default" selected>Оберіть країну</option>
+                                    <option>Україна</option>
+                                    <option>Польща</option>
+                                </select>
+                            </div>
+
+                            <div class="field error">
+                                <div class="f-small align-self-center mb-1">Поле вибору</div>
+                                <label for="region-error">Ваш регіон</label>
+                                <select id="region-error" class="control">
+                                    <option class="default">Оберіть країну</option>
+                                    <option selected>Вейшнорія</option>
+                                </select>
+                                <p class="error-msg">Якась невідома країна</p>
+                            </div>
+                        </div>  
+                    </div>
+
+                    <div class="bg-light-blue b-rad-1 grid grid-cols-1 grid-cols-desk-6 py-3">
+                        <div class="col-start-desk-2 col-span-desk-4 form px-3 px-desk-0">
+                            <div class="field">
+                                <div class="f-small align-self-center mb-1">Прапорці</div>
+                                <label>Один прапорець</label>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Погоджуюсь з <a href="#" class="fw-700">договором оферти</a>
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <label>Набір з кількох прапорців</label>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Перша опція
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Друга опція
+                                </label>
+                            </div>
+
+                            <div class="field error">
+                                <label>Прапорець з помилкою</label>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Погоджуюсь з <a href="#" class="fw-700">договором оферти</a>
+                                </label>
+                                <p class="error-msg">Щоб відправити форму, вам необхідно погодитись з умовами договору оферти</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-light-blue b-rad-1 grid grid-cols-1 grid-cols-desk-6 py-3">
+                        <div class="col-start-desk-2 col-span-desk-4 form px-3 px-desk-0">
+                            <div class="field">
+                                <div class="f-small align-self-center mb-1">Перемикачі</div>
+                                <label>Набір перемикачів</label>
+                                <label class="radio">
+                                    <input type="radio" name="radio" checked>
+                                    Перший варіант
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="radio">
+                                    Другий варіант
+                                </label>
+                            </div>
+
+                            <div class="field error">
+                                <label>Перемикачі з помилкою</label>
+                                <label class="radio">
+                                    <input type="radio" name="radio-error">
+                                    Перший варіант
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="radio-error" checked>
+                                    Другий варіант
+                                </label>
+                                <p class="error-msg">Ми не схвалюємо обраний вами варіант</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="ui-section">
+                <h2 class="h4 h-sup mb-4">Компоненти</h2>
+
+                <div class="grid grid-cols-1 grid-cols-desk-2 g-4">
+
+                    <article class="program">
+                        <h3 class="program-title">Теорія</h3>
+                        <div class="program-modules">
+                            <article class="module">
+                                <div class="module-info">
+                                    <h4 class="module-title">Знайомство з основними тегами</h4>
+                                    <div class="module-text">
+                                        <p>Вступ до курсу. Що таке HTML та CSS. Теги та їхні типи. Теги для розмітки тексту</p>
+                                    </div>
+
+                                    <div class="module-image">
+                                        <img src="./icons/img/image 40.png" width="172" height="96" alt="">
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="module">
+                                <div class="module-info">
+                                    <h4 class="module-title">Робота зі стилями</h4>
+                                    <div class="module-text">
+                                        <p>Підключення каскадних таблиць стилів CSS та форматування текстів. Робота з таблицями.</p>
+                                    </div>
+
+                                    <div class="module-image">
+                                        <img src="./icons/img/image 40.png" width="172" height="96" alt="">
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </article>
+                </div>
+
+            </section>
         </div>
     </div>
     

@@ -69,11 +69,117 @@
         <div class="layout-container">
             <h1 class="mb-3">Інтерфейсний комплект</h1>
 
+            <header class="layout-header">
+                <div class="layout-container">
+                    <div class="header-wrapper">
+                        <a href="https://cases.media/creativepractice" class="header-logo">
+                            <img src="./icons/img/logo.png" width="126" height="56" alt="Creative Practice">
+                        </a>
+
+                        <nav class="header-menu">
+                            <ul class="nav">
+                                <li class="d-none d-desk-block">
+                                    <a href="#">Про курс</a>
+                                </li>
+                                <li class="d-none d-desk-block">
+                                    <a href="#">Хто викладає</a>
+                                </li>
+                                <li class="dropdown d-none d-desk-block">
+                                        <a href="#">Програма курсу</a>
+
+                                    <div class="dropdown-wrapper">
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Теорія</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Практика</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="dropdown d-desk-none">
+                                    <a href="#">Меню</a>
+                                
+                                <div class="dropdown-wrapper dd-left dd-tab-right">
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Про курс</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Хто викладає</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Програма</a>
+                                        </li>
+                                        <li class="btn d-tab-none">
+                                            <div>
+                                                <a href="#" class="btn-orange">Зареєструватись</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </li>
+
+                                <li class="btn d-none d-tab-block">
+                                    <div>
+                                        <a href="#" class="btn-orange">Зареєструватись</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
             <!-- Колонки -->
 
             <section class="ui-section">
                 <h2 class="h4 h-sup mb-4">Сітка</h2>
 
+                <h3 class="my-4">Чотири колонки</h3>
+
+                <div class="d-grid grid grid-cols-4 my-4 ui-grid f-small ta-center">
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+
+                    <div class="col-span-4">.col-span-4</div>
+                    <div class="col-span-3">.col-span-3</div>
+                    <div>&ndash;</div>
+                    <div class="col-span-2">.col-span-2</div>
+                    <div class="col-span-2">.col-span-2</div>
+                </div>
+
+                <h3 class="d-none d-tab-block my-4">Вісім колонок (планшети і ширше)</h3>
+                <div class="d-none d-tab-grid grid grid-cols-8 my-4 ui-grid f-small ta-center">
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+                    <div>&ndash;</div>
+
+                    <div class="col-span-8">.col-span-8</div>
+                    <div class="col-span-7">.col-span-7</div>
+                    <div>&ndash;</div>
+                    <div class="col-span-6">.col-span-6</div>
+                    <div class="col-span-2">.col-span-2</div>
+
+                    <div class="col-span-5">.col-span-5</div>
+                    <div class="col-span-3">.col-span-3</div>
+
+                    <div class="col-span-4">.col-span-4</div>
+                    <div class="col-span-4">.col-span-4</div>
+                </div>
+                
                 <h3 class="d-none d-desk-block my-4">Дванадцять колонок (комп'ютерна)</h3>
                 
                 <div class="d-none d-desk-grid grid ui-grid f-small ta-center">
@@ -527,24 +633,28 @@
 
             </section>
 
+            <!-- Компоненти -->
+
             <section class="ui-section">
                 <h2 class="h4 h-sup mb-4">Компоненти</h2>
 
-                <div class="grid grid-cols-1 grid-cols-desk-2 g-4">
+                <div class="grid grid-cols-1 grid-cols-desk-2 gy-4">
 
                     <article class="program">
                         <h3 class="program-title">Теорія</h3>
+                        
                         <div class="program-modules">
+
                             <article class="module">
                                 <div class="module-info">
                                     <h4 class="module-title">Знайомство з основними тегами</h4>
                                     <div class="module-text">
                                         <p>Вступ до курсу. Що таке HTML та CSS. Теги та їхні типи. Теги для розмітки тексту</p>
                                     </div>
+                                </div>
 
-                                    <div class="module-image">
-                                        <img src="./icons/img/image 40.png" width="172" height="96" alt="">
-                                    </div>
+                                <div class="module-image">
+                                    <img src="./icons/img/image 40.png" width="172" height="96">
                                 </div>
                             </article>
 
@@ -554,15 +664,55 @@
                                     <div class="module-text">
                                         <p>Підключення каскадних таблиць стилів CSS та форматування текстів. Робота з таблицями.</p>
                                     </div>
-
-                                    <div class="module-image">
-                                        <img src="./icons/img/image 40.png" width="172" height="96" alt="">
-                                    </div>
+                                </div>
+                                <div class="module-image">
+                                    <img src="./icons/img/image 41.png" width="172" height="96">
                                 </div>
                             </article>
 
                         </div>
                     </article>
+
+                    <div class="grid grid-cols-1 grid-cols-tab-2 grid-cols-desk-3 gy-4">
+                        <div class="col-span-desk-2">
+                            <h3 class="h4 h-sup c-black mb-3">Інші курси Практики</h3>
+                            <ul class="linklist flex flex-col fg-2">
+                                <li>
+                                    <a href="#">Робота з Figma</a>
+                                </li>
+                                <li>
+                                    <a href="#">Основи вебдизайну</a>
+                                </li>
+                                <li>
+                                    <a href="#">Робота з Webflow</a>
+                                </li>
+                                <li>
+                                    <a href="#">Проєктування та дизайн інтерфейсів</a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                        <div class="col-span-desk-2">
+                            <h3 class="h4 h-sup c-black mb-3">Корисні посилання</h3>
+
+                            <ul class="linklist flex flex-col fg-2">
+                                <li>
+                                    <a href="https://material.io">
+                                        <span class="gray-arrow-right mr-1"></span>
+                                        <span>material.io</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://getbootstrap.com">
+                                        <span class="gray-arrow-right mr-1"></span>
+                                        <span>getbootstrap.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    
+                    </div>
                 </div>
 
             </section>
